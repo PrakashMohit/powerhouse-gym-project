@@ -4,15 +4,20 @@
 
 body{
 
-    background-color: red;
+    background-color: black;
     box-sizing: border-box;
     padding: 0;
     margin:0;
-    background-image: url('./images/bg.png');
-    background-repeat: no-repeat;
-    background-size: 100vw,100vh;
+    
+   
+
+    
+    
+    
     
 }
+
+/* header starts*/
 
 
 header{
@@ -20,6 +25,11 @@ header{
     background-color: black;
     display: flex;
     flex-direction: row;
+    position: fixed;
+    z-index:4;
+    width:100vw;
+    
+   
     
 }
 
@@ -40,18 +50,15 @@ header{
 }
 
 
-.logotext{
-    color:red
-}
-
-
 .navbar{
 
-    margin-left: 450px;
+    margin-left: 455px;
     display:flex;
     column-gap: 17px;
-    ;
+    
     padding-top: 20px;
+
+    background-color: black;
     
 }
 
@@ -72,23 +79,35 @@ a:hover{
     color: red;
 }
 
+/* header ends*/
 
 
 
 
-.t1{
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.section1{
     padding: 0px;
     margin:0px;
-    position:relative;
+    background-image: url('./images/bg.png');
+    padding-top: 95px;
+    background-repeat: no-repeat;
+    background-size: 1350px,100vh;
+    position: relative;
+    height: 100vh;
+    width:100vw;
+    
+    
     
     
     
 }
 
-.man{
-    position: absolute;
-    left:50px
-}
+
+
 
 .obtain{
     font-size: 90px;
@@ -99,7 +118,15 @@ a:hover{
     letter-spacing: 10px;
     height: 150px;
     width:600px;
+    
     position: absolute;
+    top:70px;
+    z-index:2;
+   
+    
+    
+    
+    
     
    
     
@@ -114,10 +141,17 @@ a:hover{
     
     margin-left: 20px;
     letter-spacing: 35px;
-    height: 250px;
+    height: 200px;
     width:1200px;
+    
+    text-align: left;
     position: absolute;
-    top:100px;
+    top:170px;
+    
+    
+    
+    
+    
     
     
     
@@ -131,10 +165,13 @@ a:hover{
     font-family: 'Plateia', sans-serif;
     
     letter-spacing: 10px;
-    margin-left: 875px;
+    margin-left: 900px;
+    
     position: absolute;
-    top:300px;
-    left:25px;
+    top:370px;
+    
+   
+    
     
     
     
@@ -143,5 +180,310 @@ a:hover{
 
 }
 
+.man{
+    position: absolute;
+    left:50px;
+    top:70px;
+    z-index: 3;
+}
 
 
+.section2{
+    background-color: black;
+    height:40px;
+    width:1340px;
+    border-bottom: 1px solid red;
+
+}
+
+.section3{
+
+    background-image: url('./images/smoke.jpg');
+    display: flex;
+    column-gap: 100px;
+    border-bottom: 1px solid red;
+}
+
+
+
+.smoke{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width:40vw;
+    
+
+}
+
+.smokeheadline{
+
+    color:white;
+    font-family: 'Plateia', sans-serif;
+    
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+.smokepara{
+    color:white;
+    font-family: 'Plateia', sans-serif;
+
+}
+
+
+.button{
+    height:50px;
+    width:300px;
+    text-align: center;
+    font-family: 'Plateia', sans-serif;
+    background-color: red;
+    color:white;
+    border:1px solid red;
+    margin-top: 50px;
+
+}
+
+.button:hover{
+    color:black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.man2{
+    
+    margin-top: 20px;
+}
+
+.section4{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid red;;
+}
+
+.section4heading{
+
+    font-family: 'Plateia', sans-serif;
+    font-size: 30px;
+    color:white;
+
+}
+
+.features{
+
+    display: flex;
+    column-gap: 10px;
+
+}
+
+.container{
+    background-color: rgb(219, 26, 26);
+    width:300px;
+    height:400px;
+    margin-bottom: 20px;
+}
+
+
+
+.sec1{
+    height:100px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+
+
+
+.sec2{
+    font-family: 'Plateia', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+
+
+.sec3{
+    font-family: sans-serif;
+    text-align: center;
+    padding:5px;
+    color:white;
+}
+
+
+.section5{
+
+    background-image: url('./images/background.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.section5heading{
+    font-family: 'Plateia', sans-serif;
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    width:500px;
+    
+}
+
+.sec5divs{
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+}
+
+.pricing{
+    width:400px;
+    height:450px;
+    background-color:rgba(255,255,255,0.5);
+}
+
+.pricing:hover{
+
+    background-color:rgba(255,255,255,0.5);
+
+}
+
+.price1{
+    color:white;
+    font-family: 'Plateia', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    
+    
+
+}
+
+.price2{
+    color:white;
+    font-family: 'Plateia', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.price3{
+    color:white;
+    font-family: 'Plateia', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    list-style-type: none;
+
+}
+
+.price3>ul{
+    
+    list-style-type:none;
+}
+
+.button2{
+    height:50px;
+    width:300px;
+    text-align: center;
+    font-family: 'Plateia', sans-serif;
+    background-color: red;
+    color:white;
+    border:1px solid red;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.button2:hover{
+    color:black;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+.section6{
+    display: flex;
+    column-gap: 15px;
+}
+
+
+.div1{
+    width:600px;
+    height:500px;
+    background-color:black;
+    margin-top: 50px;
+    font-family: 'Plateia', sans-serif;
+    color: white;
+    font-size: 30px;
+    padding-left: 15px;
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+    
+   
+    
+}
+
+.div1>.corestrength{
+    color:red;
+    
+
+    
+}
+
+
+
+.div2{
+
+    width: 500px;
+    height: 500px;
+    background-color:black;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Plateia', sans-serif;
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+    padding-left: 15px;
+}
+
+.div3{
+
+    width: 400px;
+    height: 500px;
+    background-color:black;
+    margin-top: 50px;
+    color:white;
+    font-family: 'Plateia', sans-serif;
+    padding-left: 50px;
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+}
+
+.footer_logo{
+    height:180px;
+    padding-left: 30px;
+}
+
+.footer_logo2{
+    width:350px;
+    
+}
+
+.bold{
+    color:red;
+}
+
+.two{
+    font-size:40px;
+    font-family: 'Plateia', sans-serif;
+    
+}
+
+.footer{
+    color:white;
+    text-align: center;
+    font-family: 'Plateia', sans-serif;
+    font-size: 25px;
+    
+}
