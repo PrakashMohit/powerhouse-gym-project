@@ -17,6 +17,8 @@ body{
     
 }
 
+
+
 /* header starts*/
 
 
@@ -261,6 +263,7 @@ main{
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid red;;
+    
 }
 
 .section4heading{
@@ -268,6 +271,7 @@ main{
     font-family: 'Plateia', sans-serif;
     font-size: 30px;
     color:white;
+    
 
 }
 
@@ -275,6 +279,10 @@ main{
 
     display: flex;
     column-gap: 10px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -336,6 +344,8 @@ main{
     display: flex;
     column-gap: 15px;
     justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 15px;
 }
 
 .pricing{
@@ -355,6 +365,7 @@ main{
     font-family: 'Plateia', sans-serif;
     text-align: center;
     font-size: 25px;
+    color:black;
     
     
 
@@ -406,6 +417,7 @@ main{
 .section6{
     display: flex;
     column-gap: 15px;
+    flex-wrap: wrap;
 }
 
 
@@ -486,4 +498,210 @@ main{
     font-family: 'Plateia', sans-serif;
     font-size: 25px;
     
+}
+
+@media only screen and (max-width: 600px) 
+{
+    body {
+      background-color: black;
+      box-sizing: border-box;
+      padding: 0;
+      margin:0;
+    
+    }
+    
+    
+    .section1{
+        padding: 0px;
+        margin:0px;
+        background-image: url('./images/bg.png');
+        /* padding-top: 95px; */
+        background-repeat: no-repeat;
+        /*--background-size: 1400px,100vh;*/
+        position: relative;
+        
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    .obtain{
+        font-size: 80px;
+        color: white;
+        font-family: 'Plateia', sans-serif;
+        
+        margin-left: 5px;
+        
+        height: 100vh;
+        width:100vw;
+        
+        position: absolute;
+        top:130px;
+        z-index:2;
+        overflow: hidden;
+       
+        
+        
+        
+        
+        
+       
+        
+        
+                                                    
+    
+    }
+    .fitness{
+        font-size:80px;
+        color: white;
+        font-family: 'Plateia', sans-serif;
+        
+        margin-left: 5px;
+        
+        height: 100vh;
+        width:100vw;
+        
+        text-align: left;
+        
+        top:250px;
+        overflow: hidden;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+    
+    .goal{
+        font-size:80px;
+        color: white;
+        font-family: 'Plateia', sans-serif;
+        
+        
+        
+        
+        position: absolute;
+        top:350px;
+        left:-900px;
+        overflow: hidden;
+        
+       
+        
+        
+        
+        
+    
+    
+    
+    }
+    
+    .man{
+        position: absolute;
+        
+        top:150px;
+        z-index: 3;
+        height:350px;
+        left:-15px;
+        width:100vw;
+
+    }
+    
+    .section2{
+        background-color: green;
+        height:20px;
+        width:100vw;
+        border-bottom: 1px solid red;
+        display: none;
+    
+    }
+    
+    .section3{
+    
+        background-image: url('./images/smoke.jpg');
+        display: flex;
+        column-gap: 100px;
+        border-bottom: 1px solid red;
+    }
+    
+    
+    
+    .smoke{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        width:40vw;
+        flex-wrap: wrap;
+        
+        
+    
+    }
+    
+    .smokeheadline{
+    
+        color:white;
+        font-family: 'Plateia', sans-serif;
+        
+        font-size: 20px;
+        padding-left: 10px;
+    
+    }
+    .smokepara{
+        color:white;
+        font-family: 'Plateia', sans-serif;
+    
+    }
+    
+    
+    .button{
+        height:50px;
+        width:300px;
+        text-align: center;
+        font-family: 'Plateia', sans-serif;
+        background-color: red;
+        color:white;
+        border:1px solid red;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    
+    }
+    
+    .button:hover{
+        color:black;
+        background-color: white;
+        cursor: pointer;
+    }
+    
+    .man2{
+        
+        margin-top: 20px;
+        display: none;
+
+    }
+    .section5heading{
+        font-family: 'Plateia', sans-serif;
+        color:white;
+        text-align: center;
+        font-size: 25px;
+        width:100vw;
+        
+    }
+    .section4heading{
+
+        font-family: 'Plateia', sans-serif;
+        font-size: 30px;
+        color:white;
+        text-align: center;
+        
+    
+    }
 }
